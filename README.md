@@ -1,1 +1,1 @@
-# Website for CLOSER initated metadata research projects
+## Website for CLOSER initated metadata research projects
