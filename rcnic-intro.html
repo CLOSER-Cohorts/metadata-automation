@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Metadata Automation</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/clean-blog.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="vision.html">Vision</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('img/survey.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>Automating Question Capture</h1>
+            <span class="Extracting meaning from structured questionnaires"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+                
+        <h4>Strategic Context</h4>
+        <p>There is growing recognition that current data discovery resources are not meeting the changing needs of researchers. 
+          The recent launch of the Catalogue of Mental Health Measures  which primarily focuses on provenance, the reproducibility movement, 
+          the adoption of FAIR and the active re-examination of data infrastructures by funders in the UK and Europe are indications of that. 
+          What is not evident, is how it is possible to uplift existing resources to move towards that in a practical sense.</p>
+
+        <h4>Barriers to progress in questionnaire capture</h4>
+        <p><a href="discovery.closer.ac.uk">CLOSER Discovery</a> was tasked to provide a richer layer of metadata about the data collection process 
+          for both ESRC resources, but also for allied MRC funded studies in biomedical science. 
+          The aim was to provide enhanced discoverability and context to the available data. In addition it aims to repurpose these resources 
+          as a reusable question bank to provide input into questionnaire design and development which was not available as actionable metadata, 
+          and to provide sufficient detail for its use in post survey collection data management and dissemination either through the UKDA (ESRC) 
+          or other mechanisms (MRC).
+
+        <p>If the scope of CLOSER Discovery is to be expanded, or other resources are to be created which have similar capabilities, 
+          a mechanism will need to be found that enables the ingest of questionnaires into structured metadata an order of magnitude quicker</p>
+        
+        <p>There are three main challenges:</p>
+        <ul>
+          <li>Historic questionnaire capture will require high accuracy auto-extraction from (primarily) PDFs;</li>
+          <li>Current and future collection will require the ability to move from manual specification of questionnaires;</li>
+          <li>Provision of high quality survey question banks to make the development of tools to support that viable.</li>
+        </ul>
+        
+        <h4>Capturing Content</h4>
+        <p>The general approach is that the extraction of the questions, and the responses along with the instructions (which form the core part of 
+          the questions), would be extracted by the generation of algorithms trained using the corpus of CLOSER structured questionnaires and PDFs. 
+          Natural Language Processing Mechanisms (NLP) such as Named Entity Recognition (NER) as well as machine learning-based techniques 
+          (including Bayesian learning, among others) would be used to identify the questionnaire elements.</p>
+        <p>The creation of this content, is one of the building blocks upon which the provenance and enhanced description of data can be established</p>
+        
+        <hr>   
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            <li class="list-inline-item">
+              <a href="https://twitter.com/CLOSER_UK">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/CLOSER-Cohorts">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+          <p class="copyright text-muted">Copyright &copy; CLOSER 2021</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
