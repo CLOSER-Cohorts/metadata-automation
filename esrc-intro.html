@@ -35,7 +35,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-           <li class="nav-item">
+            <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
@@ -53,14 +53,14 @@
   </nav>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('img/about-us.jpg')">
+  <header class="masthead" style="background-image: url('img/survey.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="page-heading">
-            <h1>Our Collaboration</h1>
-            <span class="subheading"></span>
+            <h1>Automating Question Capture</h1>
+            <span class="Extracting meaning from structured questionnaires"></span>
           </div>
         </div>
       </div>
@@ -72,45 +72,41 @@
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
                 
-        <h4>The Team</h4>
-        <p>Bringing together expertise in data management, metadata and machine learning</p>
-        <ul>
-          <li><a href="https://orcid.org/0000-0001-7439-6077">Suparna De</a> - University of Winchester (Co-Investigator)</li>
-          <li>Sanaz Jabbari - UCL, RITS (Developer)</li>
-          <li><a href="https://orcid.org/0000-0001-8482-1620">Jon Johnson</a> - UCL, CLOSER (Co-Investigator)</li>
-          <li>Jenny Li - UCL, CLOSER (Data Management)</li>
-          <li>Harry Moss - UCL, RITS (Developer)</li>
-        </ul>   
-        <hr>
+        <h4>Strategic Context</h4>
+        <p>There is growing recognition that current data discovery resources are not meeting the changing needs of researchers. 
+          The recent launch of the Catalogue of Mental Health Measures  which primarily focuses on provenance, the reproducibility movement, 
+          the adoption of FAIR and the active re-examination of data infrastructures by funders in the UK and Europe are indications of that. 
+          What is not evident, is how it is possible to uplift existing resources to move towards that in a practical sense.</p>
 
-        <h4>The Advisory Board</h4>
-        <p>Providing expert advice to the project</p>
-        <ul>
-          <li>Ciara Cummins (Central Statistical Office, Ireland)</li>
-          <li>Neil Fitzgerald (British Library)</li>
-          <li>Deirdre Lungley (UK Data Archive)</li>
-          <li>Klaus Moessner (Technical University Chemnitz & University of Surrey)</li>
-          <li>Carsten Thiel (Consortium of European Social Science Data Archives)</li>
-          <li>Wei Wang (Xian Jiatong Liverpool University)</li>
-          <li>Jeremy Yates (UCL)</li>
-        </ul>
-        <hr>
+        <h4>Barriers to progress in questionnaire capture</h4>
+        <p><a href="discovery.closer.ac.uk">CLOSER Discovery</a> was tasked to provide a richer layer of metadata about the data collection process 
+          for both ESRC resources, but also for allied MRC funded studies in biomedical science. 
+          The aim was to provide enhanced discoverability and context to the available data. In addition it aims to repurpose these resources 
+          as a reusable question bank to provide input into questionnaire design and development which was not available as actionable metadata, 
+          and to provide sufficient detail for its use in post survey collection data management and dissemination either through the UKDA (ESRC) 
+          or other mechanisms (MRC).
 
-        <h4>Contact Us</h4>
-        <p><a href = "mailto: jon.johnson@ucl.ac.uk">Metadata Automation Project</a></p>
-          
-        <h4>Our Funders</h4>
+        <p>If the scope of CLOSER Discovery is to be expanded, or other resources are to be created which have similar capabilities, 
+          a mechanism will need to be found that enables the ingest of questionnaires into structured metadata an order of magnitude quicker</p>
         
-        <map name="funders">
-	  <area shape=rect coords="39,169,236,245" href="https://dirac.ac.uk">
-	  <area shape=rect coords="39,258,205,375" href="https://closer.ac.uk">
-	  <area shape=rect coords="39,33,400,125" href="https://esrc.ukri.org">
-      </map>
-      <img border=0 src="img/metadata-automation-funders.jpg" usemap="#funders">
-         
+        <p>There are three main challenges:</p>
+        <ul>
+          <li>Historic questionnaire capture will require high accuracy auto-extraction from (primarily) PDFs;</li>
+          <li>Current and future collection will require the ability to move from manual specification of questionnaires;</li>
+          <li>Provision of high quality survey question banks to make the development of tools to support that viable.</li>
+        </ul>
+        
+        <h4>Capturing Content</h4>
+        <p>The general approach is that the extraction of the questions, and the responses along with the instructions (which form the core part of 
+          the questions), would be extracted by the generation of algorithms trained using the corpus of CLOSER structured questionnaires and PDFs. 
+          Natural Language Processing Mechanisms (NLP) such as Named Entity Recognition (NER) as well as machine learning-based techniques 
+          (including Bayesian learning, among others) would be used to identify the questionnaire elements.</p>
+        <p>The creation of this content, is one of the building blocks upon which the provenance and enhanced description of data can be established</p>
+        
+        <hr>   
+      </div>
     </div>
   </div>
-</div>
 
   <hr>
 

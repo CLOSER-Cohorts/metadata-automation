@@ -35,7 +35,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-           <li class="nav-item">
+          <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
@@ -53,14 +53,14 @@
   </nav>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('img/about-us.jpg')">
+  <header class="masthead" style="background-image: url('img/lego-pile.png')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="page-heading">
-            <h1>Our Collaboration</h1>
-            <span class="subheading"></span>
+            <h1>Predicting Concepts</h1>
+            <span class="Predicting concepts from question text"></span>
           </div>
         </div>
       </div>
@@ -72,45 +72,28 @@
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
                 
-        <h4>The Team</h4>
-        <p>Bringing together expertise in data management, metadata and machine learning</p>
-        <ul>
-          <li><a href="https://orcid.org/0000-0001-7439-6077">Suparna De</a> - University of Winchester (Co-Investigator)</li>
-          <li>Sanaz Jabbari - UCL, RITS (Developer)</li>
-          <li><a href="https://orcid.org/0000-0001-8482-1620">Jon Johnson</a> - UCL, CLOSER (Co-Investigator)</li>
-          <li>Jenny Li - UCL, CLOSER (Data Management)</li>
-          <li>Harry Moss - UCL, RITS (Developer)</li>
-        </ul>   
-        <hr>
+        <h4>Strategic context</h4>
+        <p>Finding questions that are of use for research has been a challenge. Questionnaires are scattered in PDFs, or where question banks exist, they have
+          tended to be spread across different resources, making it time consuming and limited (in the main) to text search. This is a time consuming process and
+          dependent on knowing where questions are located. <a href="https://www.cessda.eu/Tools-Services">CESSDA question bank</a> seeks to bring together questions from across
+          Europe, but aligning that with <a href="https://elsst.cessda.eu">European Language Social Science Thesaurus (ELSST)</a> will be a time consuming an non-scalable problem</p>
+        <p>Extracting the questions is the first problem, which is being tackled elsewhere in this project, but providing auto-suggestion for humans to validate will be 
+          a major assistance to getting "the content through the system" so that data linked to the questions can be discovered.</p>
 
-        <h4>The Advisory Board</h4>
-        <p>Providing expert advice to the project</p>
-        <ul>
-          <li>Ciara Cummins (Central Statistical Office, Ireland)</li>
-          <li>Neil Fitzgerald (British Library)</li>
-          <li>Deirdre Lungley (UK Data Archive)</li>
-          <li>Klaus Moessner (Technical University Chemnitz & University of Surrey)</li>
-          <li>Carsten Thiel (Consortium of European Social Science Data Archives)</li>
-          <li>Wei Wang (Xian Jiatong Liverpool University)</li>
-          <li>Jeremy Yates (UCL)</li>
-        </ul>
-        <hr>
+        <h4>Project aims </h4>    
+        <p>The RCNIC project will take the outputs from extraction project and auto-tag with concepts which align with the European Language Social Science Thesaurus (ELSST). 
+          ELSST has been adopted as the primary ontology for CESSDA data, it has been in use for over a decade in its English language predecessor HASSET.</p> 
+        <p>Tagging of ELSST terms to questions and data in CLOSER Discovery is a significant proportion of the workload and one of the limiting factors in 
+          scaling. CESSDA and its service providers face similar problems.</p> 
 
-        <h4>Contact Us</h4>
-        <p><a href = "mailto: jon.johnson@ucl.ac.uk">Metadata Automation Project</a></p>
-          
-        <h4>Our Funders</h4>
-        
-        <map name="funders">
-	  <area shape=rect coords="39,169,236,245" href="https://dirac.ac.uk">
-	  <area shape=rect coords="39,258,205,375" href="https://closer.ac.uk">
-	  <area shape=rect coords="39,33,400,125" href="https://esrc.ukri.org">
-      </map>
-      <img border=0 src="img/metadata-automation-funders.jpg" usemap="#funders">
-         
+        <p>The UCL RCNIC funded project will utilise the questions (question text and response domains) and linked concepts (based on the ELSST) held in 
+          CLOSER Discovery, the CLOSER metadata store. The aim is that the project will create a model that will be able to classify existing questions 
+          (and predict from new questions) to these existing concepts.</p>
+
+        <hr>   
+      </div>
     </div>
   </div>
-</div>
 
   <hr>
 

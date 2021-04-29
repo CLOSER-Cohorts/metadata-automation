@@ -1,4 +1,4 @@
-## CLOSER machine learning initiative 
+## Website for CLOSER initated metadata research projects at
 
-The project is led by Jon Johnson and Suparna De and funded by ESRC and UCL, and supported by CLOSER
+https://metadata-automation.org
 
